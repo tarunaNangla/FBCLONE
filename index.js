@@ -11,7 +11,8 @@ const morgan=require("morgan");
 const helmet=require("helmet");
 const mongoose=require("mongoose");
 const userRoute=require("./routes/user");
-const authRoute=require("./routes/auth")
+const authRoute=require("./routes/auth");
+const postRoute=require("./routes/post")
 
 dotenv.config();
 mongoose.connect(process.env.MONGO_URL);
@@ -27,8 +28,9 @@ app.use(morgan("common"))
 //routing
 app.use("/api/users",userRoute)
 app.use("/api/auth",authRoute)
+app.use("/api/post",postRoute)
 
 
 app.listen(8801,()=>{
-    console.log("Backend port is ready");
+    console.log("Backend port is ready on http://localhost:8801");
 })
