@@ -1,14 +1,17 @@
 .navbar{
     margin: 0;
     height: 80px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background-color:#1b0b54;
     display: flex;
-    gap:10%
+    gap:5%
 }
 
 .logo>img{
-    height: 80px;
+    height: 70px;
     width: 100%;
+    padding-left:10px ;
+    padding-top:5px ;
     
 }
 
@@ -21,18 +24,61 @@
     /* border: 1px solid black; */
 }
 .navbarcenter>span>input{
-    width: 300%;
+    /* border: 1px solid black; */
+    width: 310%;
     height: 40px;
     border-radius: 50px;
+    border: none;
 }
 
 
 .navbarleft{
     display: flex;
-    padding-top: 20px;
-    gap:10%
+    padding-top: 30px;
+    gap:10%;
+    /* border: 1px solid black; */
+    width: 10%;
+    justify-content: space-around;
 }
 
 .leftbox{
     display: flex;
+    position: relative;
+    color: aliceblue;
+}
+.leftbox>div{
+    position: absolute;
+    margin-left: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    width:12px;
+    padding-left: 7px;
+    cursor: pointer;
+}
+.pages{
+    display: flex;
+    /* gap: 10%;
+     */
+     justify-content: space-around;
+    padding-top: 30px;
+    /* border: 1px solid black; */
+    width: 13%;
+    
+}
+
+.b{
+    border-radius: 50px;
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-weight: 600;
+    background-color: #1b0b54;
+}
+.profile>img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    padding-top: 11px;
 }

@@ -16,22 +16,31 @@ const Navbar = () => {
             <SearchIcon/>
         </span>
       </div>
+      <div className='pages'>
+        <span>
+          <button className='b'>Homepage</button>
+        </span>
+        <span>
+          <button className='b'>Timelines</button>
+        </span>
+
+      </div>
       <div className='navbarleft'>
         <div className='leftbox'>
-            <span><PersonIcon/></span>1
+            <span><PersonIcon/></span><div>1</div>
         </div>
         <div className='leftbox'>
-            <span><ChatIcon/></span>2
+            <span><ChatIcon/></span><div>2</div>
         </div>
         <div className='leftbox'>
-            <span><NotificationsNoneIcon/></span>1
+            <span><NotificationsNoneIcon/></span><div>1</div>
         </div>
       </div>
 
 
-      {/* <div>
-        <img src="/assets/pic/r4.jpg"></img>
-      </div> */}
+      <div className='profile'>
+        <img src="/assets/pic/r2.jpg"></img>
+      </div>
     </div>
   )
 }

@@ -1,0 +1,64 @@
+.feed{
+    flex: 5;
+    height: auto;
+    padding-bottom: 40px;
+    /* border: 1px solid black; */
+}
+
+
+.feedcontainer{
+    /* border:1px solid black; */
+    margin: 20px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.feedcontainer1{
+    /* border:1px solid black; */
+    padding: 30px;
+    height: 50px;
+    display: flex;
+    gap:30px;
+}
+.feedpic{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    object-fit: cover;
+    /* margin-bottom: 10px; */
+}
+
+
+.inputfeed{
+    width: 540px;
+    height: 40px;
+    border-radius: 40px;
+    padding-top: 10px;
+}
+
+.feedcontainer2{
+    display: flex;
+    gap:30px;
+    padding: 40px;
+    /* border: 1px solid black; */
+}
+
+
+.feedflex{
+    display: flex;
+    gap:10px;
+    cursor: pointer;
+}
+
+
+.feedbutton{
+    width: 100px;
+    height: 25px;
+    font-weight: 600px;
+    color: white;
+    background-color: #1b0b54;
+    margin-left: 30px;
+    border-radius: 40px;
+    cursor: pointer;
+}

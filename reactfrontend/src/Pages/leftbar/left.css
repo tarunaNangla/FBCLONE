@@ -1,0 +1,63 @@
+.left{
+    flex:2.5;
+    /* border: 1px solid black; */
+    height: auto;
+    /* padding-bottom: 40px; */
+    /* padding: 10px; */
+    height: 1000px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+/* .leftcontainer{
+    border: 1px solid black;
+    padding: 5px;
+   
+} */
+.leftlisftitems{
+    margin-top: 10px;
+    display: flex;
+    gap:10px;
+    list-style: none;
+}
+
+/* .scroll{
+    overflow-y: scroll;
+height: 200px;
+} */
+
+.leftbutton{
+   color: white;
+   background-color:#1b0b54;
+   border-radius: 50px;
+   height: 40px;
+   width: 80%;
+   margin-left: 40px;
+}
+
+
+.lefthr{
+    width: 90%;
+    border:1px solid #1b0b54 ;
+    color: #1b0b54;
+}
+
+
+.leftimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.setname{
+    padding-top: 13px;
+    font-size: 20px;
+}
