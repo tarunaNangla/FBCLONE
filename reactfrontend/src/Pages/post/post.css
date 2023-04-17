@@ -1,0 +1,90 @@
+.post{
+    /* border: 1px solid black; */
+    height: 650px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.posttop{
+    /* border: 1px solid black; */
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.postimg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+
+.postpart{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 30%;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.postname{
+    padding-top: 15px;
+    font-size: large;
+    font-style: bold;
+}
+.posttime{
+    padding-top:19px;
+    font-size: 14px;
+    color: grey;
+    font-style: bold;
+
+}
+
+.posticon{
+    padding-top: 25px;
+    /* border: 1px solid black; */
+}
+
+.postmid{
+    /* border: 1px solid black; */
+    height: 500px;
+    padding: 10px 30px 0px 30px;
+}
+
+.postmidcmnt{
+    padding: 0px 0px 10px 0px;
+}
+.postmidimg{
+    width: 100%;
+    height: 450px;
+}
+
+.postbottom{
+    /* border: 1px solid black; */
+    height: 60px;
+    padding: 10px 500px 10px 30px;
+    
+}
+
+
+.postlike{
+    /* border: 1px solid black; */
+    height: 35px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.postlikecmnt{
+    padding-top: 10px;
+    font-size: 14px;
+    color: gray;
+}
+
+.cmnt{
+    color: grey;
+}

@@ -4,6 +4,7 @@ import AddPhotoAlternateIcon from '@mui/icons-material/AddPhotoAlternate';
 import TagIcon from '@mui/icons-material/Tag';
 import AddReactionIcon from '@mui/icons-material/AddReaction';
 import AddLocationIcon from '@mui/icons-material/AddLocation';
+import Post from '../post/Post';
 
 const Feed = () => {
   return (
@@ -19,22 +20,22 @@ const Feed = () => {
 
        <div className='feedcontainer2'>
          <div className='feedflex'>
-          <span><AddPhotoAlternateIcon/></span>
+          <span><AddPhotoAlternateIcon htmlColor='red' /></span>
           <span>Photo or Video</span>
          </div>
        <div className='feedflex'>
-          <span><TagIcon/></span>
+          <span><TagIcon htmlColor='blue'/></span>
           <span>Tag</span>
          </div>
 
 
          <div className='feedflex'>
-          <span><AddLocationIcon/></span>
+          <span><AddLocationIcon htmlColor='green'/></span>
           <span>Loaction</span>
          </div>
 
          <div className='feedflex'>
-          <span><AddReactionIcon/></span>
+          <span><AddReactionIcon htmlColor='gold'/></span>
           <span>Feelings</span>
          </div>
 
@@ -48,6 +49,18 @@ const Feed = () => {
 
 
       </div>
+
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
     </div>
   )
 }
